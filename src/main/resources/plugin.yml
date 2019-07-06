@@ -12,7 +12,10 @@ commands:
     aliases: []
     description: MobKillMoney Command
     permission: mkm.mkm
-    usage: /<command>
+    usage: |-
+      /mkm reload - Reload config
+      /mkm info - Spam info
+      /mkm chunk - Lookup chunk info
 permissions:
   mkm.rewards:
     description: Receive kill rewards

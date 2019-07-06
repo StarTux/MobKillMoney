@@ -22,7 +22,7 @@ killReward:
     guardian: 3
     husk: 3
     magma_cube: 3
-    phantom : 3 # Doesn't exist yet!
+    phantom : 3
     vex: 3
     vindicator: 3
 
@@ -39,6 +39,8 @@ killReward:
     wither: 0
 
 killMessage: '&6You got {money} for killing a {mob}!'
+# How many mob kills per minute in any given chunk are to be rewarded?
+killLimit: 10
 
 # How much money is lost for dying from these?
 deathCost:
@@ -64,7 +66,7 @@ deathCost:
     guardian: 4
     husk: 4
     magma_cube: 4
-    phantom : 4 # Doesn't exist yet!
+    phantom : 4
     vex: 4
     vindicator: 4
 
