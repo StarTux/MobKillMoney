@@ -1,0 +1,3 @@
+# MobKillMoney
+
+MobKillMoney plugin.

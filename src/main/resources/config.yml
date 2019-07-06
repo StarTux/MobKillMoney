@@ -1,0 +1,74 @@
+# How much money is paid for a kill?
+killReward:
+    zombie: 1
+    skeleton: 1
+    creeper: 1
+    slime: 1
+    silverfish: 1
+
+    polar_bear: 2
+    shulker: 2
+    spider: 2
+    cave_spider: 2 # Special
+    spider_jockey: 2
+    witch: 2
+    zombie_villager: 2
+    chicken_jockey: 2 # Special
+    endermite: 2
+
+    blaze: 3
+    elder_guardian: 3
+    evoker: 3
+    guardian: 3
+    husk: 3
+    magma_cube: 3
+    phantom : 3 # Doesn't exist yet!
+    vex: 3
+    vindicator: 3
+
+    wither_skeleton: 4
+    ghast: 4
+
+    stray: 0
+    armor_stand: 0
+    illusioner: 0
+    giant: 0
+    pig_zombie: 0
+    enderman: 0
+    ender_dragon: 0
+    wither: 0
+
+killMessage: '&6You got {money} for killing a {mob}!'
+
+# How much money is lost for dying from these?
+deathCost:
+    zombie: 2
+    skeleton: 2
+    creeper: 2
+    slime: 2
+    silverfish: 2
+
+    polar_bear: 3
+    shulker: 3
+    spider: 3
+    cave_spider: 3
+    spider_jockey: 3 # Special
+    witch: 3
+    zombie_villager: 3
+    chicken_jockey: 3 # Special
+    endermite: 3
+
+    blaze: 4
+    elder_guardian: 4
+    evoker: 4
+    guardian: 4
+    husk: 4
+    magma_cube: 4
+    phantom : 4 # Doesn't exist yet!
+    vex: 4
+    vindicator: 4
+
+    wither_skeleton: 5
+    ghast: 5
+
+deathMessage: '&6You lost {money} for dying to a {mob}!'

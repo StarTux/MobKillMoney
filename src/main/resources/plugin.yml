@@ -1,0 +1,25 @@
+main: com.cavetale.mobkillmoney.MobKillMoneyPlugin
+name: MobKillMoney
+version: 0.1
+api-version: 1.13
+description: Get money for killing mobs; lose money for getting killed.
+author: StarTux
+website: https://cavetale.com
+depend: [Vault]
+softdepend: []
+commands:
+  mkm:
+    aliases: []
+    description: MobKillMoney Command
+    permission: mkm.mkm
+    usage: /<command>
+permissions:
+  mkm.rewards:
+    description: Receive kill rewards
+    default: true
+  mkm.costs:
+    description: Pay death costs
+    default: true
+  mkm.mkm:
+    description: Use /mobkillmoney
+    default: op
